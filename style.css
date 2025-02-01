@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* Beautiful gradient */
+    color: #fff;
+    text-align: center;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+h2, h3, h4 {
+    color: #f1f1f1;
+}
+
+hr {
+    border: 1px solid #bbb;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+/* Links Styling */
+a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffdd55;
+}
+
+/* Button-like Link */
+a[href="https://github.com/"] {
+    display: inline-block;
+    background-color: #ff5733;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+a[href="https://github.com/"]:hover {
+    background-color: #c70039;
+}
+
+/* Hobbies Section */
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Aligning images with hobbies */
+.hobbies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.hobby-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.hobby-item img {
+    width: 80px;
+    height: auto;
+    margin-left: 15px;
+}
+
+/* Social Links */
+section {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section h3 {
+    margin: 10px 0;
+}
